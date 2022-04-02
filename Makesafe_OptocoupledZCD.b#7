@@ -146,6 +146,18 @@
 <wire x1="31.42" y1="0" x2="31.42" y2="62.22" width="0" layer="20"/>
 <wire x1="31.42" y1="62.22" x2="0" y2="62.22" width="0" layer="20"/>
 <wire x1="0" y1="62.22" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="16.002" y1="34.29" x2="16.637" y2="34.29" width="0.1524" layer="21"/>
+<wire x1="16.637" y1="34.29" x2="17.145" y2="34.29" width="0.1524" layer="21"/>
+<wire x1="16.383" y1="34.544" x2="16.383" y2="34.036" width="0.1524" layer="21"/>
+<wire x1="16.383" y1="34.036" x2="16.637" y2="34.29" width="0.1524" layer="21"/>
+<wire x1="16.637" y1="34.29" x2="16.383" y2="34.544" width="0.1524" layer="21"/>
+<wire x1="16.764" y1="34.544" x2="16.764" y2="34.036" width="0.1524" layer="21"/>
+<wire x1="17.018" y1="38.1" x2="16.383" y2="38.1" width="0.1524" layer="21"/>
+<wire x1="16.383" y1="38.1" x2="15.875" y2="38.1" width="0.1524" layer="21"/>
+<wire x1="16.637" y1="37.846" x2="16.637" y2="38.354" width="0.1524" layer="21"/>
+<wire x1="16.637" y1="38.354" x2="16.383" y2="38.1" width="0.1524" layer="21"/>
+<wire x1="16.383" y1="38.1" x2="16.637" y2="37.846" width="0.1524" layer="21"/>
+<wire x1="16.256" y1="37.846" x2="16.256" y2="38.354" width="0.1524" layer="21"/>
 </plain>
 <libraries>
 <library name="ZCD_Parts">
@@ -472,11 +484,9 @@ design rules under a new name.</description>
 </element>
 <element name="D11" library="ZCD_Parts" package="0204/7_TH" value="DIODE" x="16.51" y="34.29" smashed="yes">
 <attribute name="NAME" x="13.97" y="35.5854" size="0.9906" layer="25" ratio="12"/>
-<attribute name="VALUE" x="14.3764" y="33.8074" size="0.9906" layer="27" ratio="12"/>
 </element>
 <element name="D12" library="ZCD_Parts" package="0204/7_TH" value="DIODE" x="16.51" y="38.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="19.05" y="36.8046" size="0.9906" layer="25" ratio="12" rot="R180"/>
-<attribute name="VALUE" x="18.6436" y="38.5826" size="0.9906" layer="27" ratio="12" rot="R180"/>
+<attribute name="NAME" x="16.51" y="40.6146" size="0.9906" layer="25" ratio="12" rot="R180"/>
 </element>
 <element name="U$1" library="ZCD_Parts" package="0204/7_TH" value="JUMPER" x="13.97" y="15.24" smashed="yes">
 <attribute name="NAME" x="11.43" y="16.5354" size="0.9906" layer="25" ratio="12"/>

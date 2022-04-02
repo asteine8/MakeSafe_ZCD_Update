@@ -142,10 +142,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="100" y2="0" width="0" layer="20"/>
-<wire x1="100" y1="0" x2="100" y2="80" width="0" layer="20"/>
-<wire x1="100" y1="80" x2="0" y2="80" width="0" layer="20"/>
-<wire x1="0" y1="80" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="31.42" y2="0" width="0" layer="20"/>
+<wire x1="31.42" y1="0" x2="31.42" y2="62.22" width="0" layer="20"/>
+<wire x1="31.42" y1="62.22" x2="0" y2="62.22" width="0" layer="20"/>
+<wire x1="0" y1="62.22" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="ZCD_Parts">
@@ -433,54 +433,54 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U7" library="ZCD_Parts" package="SOP254P1016X460-8N" value="LTV-827S" x="19.05" y="26.67" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="Transistor Output Optocouplers Optocplr Phototrans 2-CHNL" x="19.05" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="4.6mm" x="19.05" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lite-On" x="19.05" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="LTV-827S" x="19.05" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="859-LTV-827S" x="19.05" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Lite-On/LTV-827S?qs=5m%252ByTwlvhMUJgq90MY9meQ%3D%3D" x="19.05" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="22.86" y="17.78" size="1.27" layer="25" rot="R270" align="center"/>
-<attribute name="VALUE" x="12.7" y="26.67" size="1.27" layer="27" rot="R270" align="center"/>
+<element name="U7" library="ZCD_Parts" package="SOP254P1016X460-8N" value="LTV-827S" x="16.51" y="24.13" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="Transistor Output Optocouplers Optocplr Phototrans 2-CHNL" x="16.51" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="4.6mm" x="16.51" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lite-On" x="16.51" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LTV-827S" x="16.51" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="859-LTV-827S" x="16.51" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Lite-On/LTV-827S?qs=5m%252ByTwlvhMUJgq90MY9meQ%3D%3D" x="16.51" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="20.32" y="15.24" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="VALUE" x="10.16" y="24.13" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
-<element name="R1A" library="ZCD_Parts" package="0204/7_TH" value="10k" x="13.97" y="53.34" smashed="yes" rot="R270">
-<attribute name="NAME" x="15.2654" y="55.88" size="0.9906" layer="25" ratio="12" rot="R270"/>
-<attribute name="VALUE" x="13.4874" y="54.9656" size="0.9906" layer="27" ratio="12" rot="R270"/>
+<element name="R1A" library="ZCD_Parts" package="0204/7_TH" value="10k" x="11.43" y="50.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="12.7254" y="53.34" size="0.9906" layer="25" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="10.9474" y="52.4256" size="0.9906" layer="27" ratio="12" rot="R270"/>
 </element>
-<element name="R1B" library="ZCD_Parts" package="0204/7_TH" value="10k" x="21.59" y="53.34" smashed="yes" rot="R270">
-<attribute name="NAME" x="22.8854" y="55.88" size="0.9906" layer="25" ratio="12" rot="R270"/>
-<attribute name="VALUE" x="21.1074" y="54.9656" size="0.9906" layer="27" ratio="12" rot="R270"/>
+<element name="R1B" library="ZCD_Parts" package="0204/7_TH" value="10k" x="19.05" y="50.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="20.3454" y="53.34" size="0.9906" layer="25" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="18.5674" y="52.4256" size="0.9906" layer="27" ratio="12" rot="R270"/>
 </element>
-<element name="P1_IN" library="ZCD_Parts" package="90MIL_TERMINAL" value="90MIL_TERMINAL" x="10.16" y="57.15" smashed="yes"/>
-<element name="P2_IN" library="ZCD_Parts" package="90MIL_TERMINAL" value="90MIL_TERMINAL" x="25.4" y="57.15" smashed="yes"/>
-<element name="R2" library="ZCD_Parts" package="0204/7_TH" value="1k" x="19.05" y="13.97" smashed="yes" rot="R180">
-<attribute name="NAME" x="21.59" y="12.6746" size="0.9906" layer="25" ratio="12" rot="R180"/>
-<attribute name="VALUE" x="20.6756" y="14.4526" size="0.9906" layer="27" ratio="12" rot="R180"/>
+<element name="P1_IN" library="ZCD_Parts" package="90MIL_TERMINAL" value="90MIL_TERMINAL" x="7.62" y="54.61" smashed="yes"/>
+<element name="P2_IN" library="ZCD_Parts" package="90MIL_TERMINAL" value="90MIL_TERMINAL" x="22.86" y="54.61" smashed="yes"/>
+<element name="R2" library="ZCD_Parts" package="0204/7_TH" value="1k" x="16.51" y="11.43" smashed="yes" rot="R180">
+<attribute name="NAME" x="19.05" y="10.1346" size="0.9906" layer="25" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="18.1356" y="11.9126" size="0.9906" layer="27" ratio="12" rot="R180"/>
 </element>
-<element name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2031" package3d_urn="urn:adsk.eagle:package:8078634/1" value="22-23-2031" x="17.78" y="8.89" smashed="yes">
-<attribute name="MF" value="MOLEX" x="17.78" y="8.89" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="22-23-2031" x="17.78" y="8.89" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="13.97" y="12.7" size="1.016" layer="25" ratio="10"/>
-<attribute name="OC_FARNELL" value="1462950" x="17.78" y="8.89" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="30C0862" x="17.78" y="8.89" size="1.778" layer="27" display="off"/>
-<attribute name="POPULARITY" value="35" x="17.78" y="8.89" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="13.97" y="3.81" size="1.016" layer="27" ratio="10"/>
+<element name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2031" package3d_urn="urn:adsk.eagle:package:8078634/1" value="22-23-2031" x="15.24" y="6.35" smashed="yes">
+<attribute name="MF" value="MOLEX" x="15.24" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="22-23-2031" x="15.24" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="11.43" y="10.16" size="1.016" layer="25" ratio="10"/>
+<attribute name="OC_FARNELL" value="1462950" x="15.24" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="30C0862" x="15.24" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="POPULARITY" value="35" x="15.24" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="11.43" y="1.27" size="1.016" layer="27" ratio="10"/>
 </element>
-<element name="C1" library="ZCD_Parts" package="0204/7_TH" value="68n" x="17.78" y="45.72" smashed="yes">
-<attribute name="NAME" x="15.24" y="47.0154" size="0.9906" layer="25" ratio="12"/>
-<attribute name="VALUE" x="16.1544" y="45.2374" size="0.9906" layer="27" ratio="12"/>
+<element name="C1" library="ZCD_Parts" package="0204/7_TH" value="68n" x="15.24" y="43.18" smashed="yes">
+<attribute name="NAME" x="12.7" y="44.4754" size="0.9906" layer="25" ratio="12"/>
+<attribute name="VALUE" x="13.6144" y="42.6974" size="0.9906" layer="27" ratio="12"/>
 </element>
-<element name="D11" library="ZCD_Parts" package="0204/7_TH" value="DIODE" x="19.05" y="36.83" smashed="yes">
-<attribute name="NAME" x="16.51" y="38.1254" size="0.9906" layer="25" ratio="12"/>
-<attribute name="VALUE" x="17.4244" y="36.3474" size="0.9906" layer="27" ratio="12"/>
+<element name="D11" library="ZCD_Parts" package="0204/7_TH" value="DIODE" x="16.51" y="34.29" smashed="yes">
+<attribute name="NAME" x="13.97" y="35.5854" size="0.9906" layer="25" ratio="12"/>
+<attribute name="VALUE" x="14.8844" y="33.8074" size="0.9906" layer="27" ratio="12"/>
 </element>
-<element name="D12" library="ZCD_Parts" package="0204/7_TH" value="DIODE" x="19.05" y="40.64" smashed="yes" rot="R180">
-<attribute name="NAME" x="21.59" y="39.3446" size="0.9906" layer="25" ratio="12" rot="R180"/>
-<attribute name="VALUE" x="20.6756" y="41.1226" size="0.9906" layer="27" ratio="12" rot="R180"/>
+<element name="D12" library="ZCD_Parts" package="0204/7_TH" value="DIODE" x="16.51" y="38.1" smashed="yes" rot="R180">
+<attribute name="NAME" x="19.05" y="36.8046" size="0.9906" layer="25" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="18.1356" y="38.5826" size="0.9906" layer="27" ratio="12" rot="R180"/>
 </element>
-<element name="U$1" library="ZCD_Parts" package="0204/7_TH" value="JUMPER" x="16.51" y="17.78" smashed="yes">
-<attribute name="NAME" x="13.97" y="19.0754" size="0.9906" layer="25" ratio="12"/>
-<attribute name="VALUE" x="14.8844" y="17.2974" size="0.9906" layer="27" ratio="12"/>
+<element name="U$1" library="ZCD_Parts" package="0204/7_TH" value="JUMPER" x="13.97" y="15.24" smashed="yes">
+<attribute name="NAME" x="11.43" y="16.5354" size="0.9906" layer="25" ratio="12"/>
+<attribute name="VALUE" x="12.3444" y="14.7574" size="0.9906" layer="27" ratio="12"/>
 </element>
 </elements>
 <signals>
@@ -489,83 +489,83 @@ design rules under a new name.</description>
 <contactref element="U7" pad="4"/>
 <contactref element="C1" pad="P$1"/>
 <contactref element="D11" pad="P$1"/>
-<wire x1="15.24" y1="36.83" x2="15.24" y2="31.22" width="0.889" layer="1"/>
-<wire x1="15.24" y1="36.83" x2="12.7" y2="36.83" width="0.889" layer="1"/>
-<wire x1="12.7" y1="36.83" x2="11.43" y2="38.1" width="0.889" layer="1"/>
-<wire x1="11.43" y1="44.45" x2="12.7" y2="45.72" width="0.889" layer="1"/>
-<wire x1="12.7" y1="45.72" x2="13.97" y2="45.72" width="0.889" layer="1"/>
-<wire x1="11.43" y1="38.1" x2="11.43" y2="44.45" width="0.889" layer="1"/>
-<wire x1="13.97" y1="45.72" x2="13.97" y2="49.53" width="1.27" layer="1"/>
+<wire x1="12.7" y1="34.29" x2="12.7" y2="28.68" width="0.889" layer="1"/>
+<wire x1="12.7" y1="34.29" x2="10.16" y2="34.29" width="0.889" layer="1"/>
+<wire x1="10.16" y1="34.29" x2="8.89" y2="35.56" width="0.889" layer="1"/>
+<wire x1="8.89" y1="41.91" x2="10.16" y2="43.18" width="0.889" layer="1"/>
+<wire x1="10.16" y1="43.18" x2="11.43" y2="43.18" width="0.889" layer="1"/>
+<wire x1="8.89" y1="35.56" x2="8.89" y2="41.91" width="0.889" layer="1"/>
+<wire x1="11.43" y1="43.18" x2="11.43" y2="46.99" width="1.27" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="U7" pad="2"/>
 <contactref element="R1B" pad="P$2"/>
 <contactref element="C1" pad="P$2"/>
 <contactref element="D12" pad="P$1"/>
-<wire x1="20.32" y1="39.37" x2="21.59" y2="40.64" width="0.889" layer="1"/>
-<wire x1="21.59" y1="40.64" x2="22.86" y2="40.64" width="0.889" layer="1"/>
-<wire x1="20.32" y1="31.22" x2="20.32" y2="39.37" width="0.889" layer="1"/>
-<wire x1="20.32" y1="39.37" x2="20.32" y2="44.45" width="0.889" layer="1"/>
-<wire x1="20.32" y1="44.45" x2="21.59" y2="45.72" width="0.889" layer="1"/>
-<wire x1="21.59" y1="49.53" x2="21.59" y2="45.72" width="1.27" layer="1"/>
+<wire x1="17.78" y1="36.83" x2="19.05" y2="38.1" width="0.889" layer="1"/>
+<wire x1="19.05" y1="38.1" x2="20.32" y2="38.1" width="0.889" layer="1"/>
+<wire x1="17.78" y1="28.68" x2="17.78" y2="36.83" width="0.889" layer="1"/>
+<wire x1="17.78" y1="36.83" x2="17.78" y2="41.91" width="0.889" layer="1"/>
+<wire x1="17.78" y1="41.91" x2="19.05" y2="43.18" width="0.889" layer="1"/>
+<wire x1="19.05" y1="46.99" x2="19.05" y2="43.18" width="1.27" layer="1"/>
 </signal>
 <signal name="P2_IN">
 <contactref element="R1B" pad="P$1"/>
 <contactref element="P2_IN" pad="1"/>
-<wire x1="21.59" y1="57.15" x2="25.4" y2="57.15" width="2.54" layer="1"/>
-<wire x1="25.4" y1="57.15" x2="25.4" y2="59.69" width="5.842" layer="1"/>
-<wire x1="25.4" y1="57.15" x2="27.94" y2="57.15" width="5.842" layer="1"/>
+<wire x1="19.05" y1="54.61" x2="22.86" y2="54.61" width="2.54" layer="1"/>
+<wire x1="22.86" y1="54.61" x2="22.86" y2="57.15" width="5.842" layer="1"/>
+<wire x1="22.86" y1="54.61" x2="25.4" y2="54.61" width="5.842" layer="1"/>
 </signal>
 <signal name="P1_FUSED">
 <contactref element="R1A" pad="P$1"/>
 <contactref element="P1_IN" pad="1"/>
-<wire x1="13.97" y1="57.15" x2="10.16" y2="57.15" width="2.54" layer="1"/>
-<wire x1="10.16" y1="57.15" x2="10.16" y2="59.69" width="5.842" layer="1"/>
-<wire x1="10.16" y1="57.15" x2="7.62" y2="57.15" width="5.842" layer="1"/>
+<wire x1="11.43" y1="54.61" x2="7.62" y2="54.61" width="2.54" layer="1"/>
+<wire x1="7.62" y1="54.61" x2="7.62" y2="57.15" width="5.842" layer="1"/>
+<wire x1="7.62" y1="54.61" x2="5.08" y2="54.61" width="5.842" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="U7" pad="5"/>
 <contactref element="U7" pad="7"/>
 <contactref element="U$1" pad="P$1"/>
-<wire x1="15.24" y1="22.12" x2="14.71" y2="21.59" width="0.889" layer="1"/>
-<wire x1="14.71" y1="21.59" x2="13.97" y2="21.59" width="0.889" layer="1"/>
-<wire x1="13.97" y1="21.59" x2="12.7" y2="20.32" width="0.889" layer="1"/>
-<wire x1="12.7" y1="20.32" x2="12.7" y2="17.78" width="0.889" layer="1"/>
+<wire x1="12.7" y1="19.58" x2="12.17" y2="19.05" width="0.889" layer="1"/>
+<wire x1="12.17" y1="19.05" x2="11.43" y2="19.05" width="0.889" layer="1"/>
+<wire x1="11.43" y1="19.05" x2="10.16" y2="17.78" width="0.889" layer="1"/>
+<wire x1="10.16" y1="17.78" x2="10.16" y2="15.24" width="0.889" layer="1"/>
 <contactref element="X1" pad="3"/>
 <contactref element="U$1" pad="P$2"/>
-<wire x1="20.32" y1="17.78" x2="20.32" y2="8.89" width="0.889" layer="1"/>
-<wire x1="20.32" y1="22.12" x2="20.32" y2="17.78" width="0.889" layer="1"/>
-<wire x1="20.32" y1="22.12" x2="15.24" y2="22.12" width="0" layer="19" extent="1-1"/>
+<wire x1="17.78" y1="15.24" x2="17.78" y2="6.35" width="0.889" layer="1"/>
+<wire x1="17.78" y1="19.58" x2="17.78" y2="15.24" width="0.889" layer="1"/>
+<wire x1="17.78" y1="19.58" x2="12.7" y2="19.58" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ZCD_OUT">
 <contactref element="U7" pad="6"/>
 <contactref element="U7" pad="8"/>
 <contactref element="R2" pad="P$1"/>
 <contactref element="X1" pad="2"/>
-<wire x1="22.86" y1="22.12" x2="22.86" y2="13.97" width="0.889" layer="1"/>
-<wire x1="17.78" y1="22.12" x2="17.78" y2="8.89" width="0.889" layer="1"/>
-<wire x1="22.86" y1="13.97" x2="22.86" y2="6.35" width="0.889" layer="1"/>
-<wire x1="22.86" y1="6.35" x2="21.59" y2="5.08" width="0.889" layer="1"/>
-<wire x1="19.05" y1="5.08" x2="17.78" y2="6.35" width="0.889" layer="1"/>
-<wire x1="17.78" y1="6.35" x2="17.78" y2="8.89" width="0.889" layer="1"/>
-<wire x1="21.59" y1="5.08" x2="19.05" y2="5.08" width="0.889" layer="1"/>
+<wire x1="20.32" y1="19.58" x2="20.32" y2="11.43" width="0.889" layer="1"/>
+<wire x1="15.24" y1="19.58" x2="15.24" y2="6.35" width="0.889" layer="1"/>
+<wire x1="20.32" y1="11.43" x2="20.32" y2="3.81" width="0.889" layer="1"/>
+<wire x1="20.32" y1="3.81" x2="19.05" y2="2.54" width="0.889" layer="1"/>
+<wire x1="16.51" y1="2.54" x2="15.24" y2="3.81" width="0.889" layer="1"/>
+<wire x1="15.24" y1="3.81" x2="15.24" y2="6.35" width="0.889" layer="1"/>
+<wire x1="19.05" y1="2.54" x2="16.51" y2="2.54" width="0.889" layer="1"/>
 </signal>
 <signal name="+5V">
 <contactref element="R2" pad="P$2"/>
 <contactref element="X1" pad="1"/>
-<wire x1="15.24" y1="13.97" x2="15.24" y2="8.89" width="0.889" layer="1"/>
+<wire x1="12.7" y1="11.43" x2="12.7" y2="6.35" width="0.889" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="D12" pad="P$2"/>
 <contactref element="U7" pad="3"/>
-<wire x1="15.24" y1="40.64" x2="16.51" y2="40.64" width="0.889" layer="1"/>
-<wire x1="16.51" y1="40.64" x2="17.78" y2="39.37" width="0.889" layer="1"/>
-<wire x1="17.78" y1="39.37" x2="17.78" y2="31.22" width="0.889" layer="1"/>
+<wire x1="12.7" y1="38.1" x2="13.97" y2="38.1" width="0.889" layer="1"/>
+<wire x1="13.97" y1="38.1" x2="15.24" y2="36.83" width="0.889" layer="1"/>
+<wire x1="15.24" y1="36.83" x2="15.24" y2="28.68" width="0.889" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="D11" pad="P$2"/>
 <contactref element="U7" pad="1"/>
-<wire x1="22.86" y1="36.83" x2="22.86" y2="31.22" width="0.889" layer="1"/>
+<wire x1="20.32" y1="34.29" x2="20.32" y2="28.68" width="0.889" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
